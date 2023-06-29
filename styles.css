@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+}
+
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+}
+
+.navigation {
+  display: flex;
+  justify-content: end;
+  padding: 0 32px;
+}
+
+* + * {
+  margin-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.hero-section {
+  display: grid;
+  background-color: cadetblue;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-img {
+  justify-self: center;
+  align-self: center;
+  height: 250px;
+}
