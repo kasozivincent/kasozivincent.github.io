@@ -23,16 +23,21 @@ body {
 .nav-list-link:visited {
   text-decoration: none;
   transition: all 0.3s;
-  background-color: #e67e22;
-  color: #fff;
-  border-radius: 0.2rem;
+  font-size: 1.6rem;
+  color: #000;
   display: inline-block;
   padding: 1rem 2rem;
 }
 
 .nav-list-link:hover,
 .nav-list-link:active {
-  background-color: #e67e22;
+  color: #a0d3f9;
+}
+
+.nav-list-link.attention:link,
+.nav-list-link.attention:visited {
+  background-color: #ed7458;
+  border-radius: 0.4rem;
   color: #fff;
 }
 
@@ -48,8 +53,8 @@ h2 {
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 1.6rem 3.2rem;
-  background-color: #fdf2e9;
+  padding: 1.6rem 3.2rem 9.6rem;
+  background-color: #fbe3de;
 }
 
 * + * {
@@ -63,19 +68,49 @@ header nav {
 }
 
 .hero-section {
-  background-color: #fdf2e9;
+  background-color: #fbe3de;
+  padding: 0 0 9.6rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
-  height: 100vh;
-}
-.hero {
-  max-width: 120rem;
-  padding: 0 3.2rem;
 }
 
 .hero-img {
   justify-self: center;
   align-self: center;
-  height: 250px;
+  width: 60%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+
+.a:link,
+.a:visited {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #ed7458;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.margin-r {
+  margin-right: 2rem;
 }
