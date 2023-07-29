@@ -45,7 +45,7 @@ h1 {
   font-size: 6.8rem;
 }
 
-h2 {
+.grid h2 {
   font-size: 4.8rem;
   margin-bottom: 4.8rem;
 }
@@ -57,9 +57,9 @@ h2 {
   background-color: #fbe3de;
 }
 
-* + * {
+/* * + * {
   margin-bottom: 20px;
-}
+} */
 
 header nav {
   display: flex;
@@ -113,4 +113,54 @@ header nav {
 
 .margin-r {
   margin-right: 2rem;
+}
+
+/*.............*/
+
+.card {
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 40px;
+  padding: 22px;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+  height: 300px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 2rem 0;
+}
+
+.tag {
+  background-color: cadetblue;
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin-right: 1rem;
+}
+
+.project_description {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  justify-content: space-between;
+  margin: 0 20px;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+  margin: 0 8px;
+  border-radius: 18px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.projects {
+  margin: 40px auto;
+  width: 800px;
 }
