@@ -14,9 +14,9 @@
     </style>
   </head>
   <body>
-    <header class="navigation">
+    <header class="navigation custom">
       <h1>My Projects</h1>
-      <nav c>
+      <nav>
         <ul class="nav-list">
           <li><a class="nav-list-link" href="index.html">Home</a></li>
           <li><a class="nav-list-link" href="#">Blog</a></li>
@@ -29,17 +29,35 @@
         </ul>
       </nav>
     </header>
+
     <div class="projects">
       <div class="card">
         <img src="./images/MscApp.PNG" alt="project image" />
 
         <div class="project_description">
-          <h2>Drug Design using Deep Learning</h2>
+          <a href="#"><h2>Smart Look: A virtual screener</h2></a>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ex
-            ea aliquid blanditiis rem distinctio eligendi eius nisi nobis.
-            Necessitatibus quod fugit minima quos alias fuga facilis ipsa est
-            ipsam!
+            This project implements a desktop system that is backed up by an
+            API. This system using deep learning to aid in drug design.
+          </p>
+          <div class="tools">
+            <span class="tag">WPF</span>
+            <span class="tag">DeepChem</span>
+            <span class="tag">Prism</span>
+            <span class="tag">Fastapi</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./images/BscApp.PNG" alt="project image" />
+
+        <div class="project_description">
+          <a href="#"><h2>Smart Hospital: The radiologist assistant</h2></a>
+          <p>
+            This desktop system uses a deep learning based python backend API to
+            diagnose chest x-ray images for infections like covid, pneumonia
+            etc. It is intended to accelerate medical diagnosis.
           </p>
           <div class="tools">
             <span class="tag">WPF</span>
@@ -50,10 +68,10 @@
       </div>
 
       <div class="card">
-        <img src="./images/BscApp.PNG" alt="project image" />
+        <img src="./images/NetworkAnalysis.PNG" alt="project image" />
 
         <div class="project_description">
-          <h2>Medical Image Analysis using Deep Learning</h2>
+          <a href="#"><h2>Network Packet Analyser</h2></a>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ex
             ea aliquid blanditiis rem distinctio eligendi eius nisi nobis.
@@ -64,28 +82,35 @@
             <span class="tag">WPF</span>
             <span class="tag">Tensorflow</span>
             <span class="tag">Prism</span>
+            <span class="tag">Pandas</span>
           </div>
         </div>
       </div>
 
       <div class="card">
-        <img src="./images/BscApp.PNG" alt="project image" />
+        <img
+          style="border-radius: 15px"
+          src="./images/int.jpg"
+          alt="project image"
+        />
 
         <div class="project_description">
-          <h2>Medical Image Analysis using Deep Learning</h2>
+          <a href="#"><h2>SeeAI: Interprete AI results</h2></a>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ex
-            ea aliquid blanditiis rem distinctio eligendi eius nisi nobis.
-            Necessitatibus quod fugit minima quos alias fuga facilis ipsa est
-            ipsam!
+            This project implements a desktop system that is backed up by an
+            API. The goal of this system is to interprete features learnt by
+            CNNs during training.
           </p>
           <div class="tools">
             <span class="tag">WPF</span>
-            <span class="tag">Tensorflow</span>
+            <span class="tag">Pytorch</span>
             <span class="tag">Prism</span>
+            <span class="tag">Fastapi</span>
           </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+

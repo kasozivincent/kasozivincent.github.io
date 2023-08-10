@@ -151,7 +151,7 @@ header nav {
 img {
   width: 100%;
   margin: 0 8px;
-  border-radius: 18px;
+  /* border-radius: 18px; */
 }
 
 .tools {
@@ -163,4 +163,12 @@ img {
 .projects {
   margin: 40px auto;
   width: 800px;
+}
+
+.project_description a {
+  text-decoration: none;
+}
+
+.custom {
+  padding-bottom: 1.5rem;
 }
