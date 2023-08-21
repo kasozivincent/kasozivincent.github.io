@@ -11,6 +11,8 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   color: #444;
+  height: 100vh;
+  background-color: #fbe3de;
 }
 
 .nav-list {
@@ -98,6 +100,7 @@ header nav {
 .description {
   line-height: 1.5;
   font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .a:link,
